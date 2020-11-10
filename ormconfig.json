@@ -1,0 +1,17 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": "3306",
+  "database": "garangasclub",
+  "username": "root",
+  "password": "",
+  "migrations": [
+    "./src/database/migrations/*.js"
+  ],
+  "entities": [
+    "./src/models/*.js"
+  ],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
