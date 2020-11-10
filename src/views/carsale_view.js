@@ -13,7 +13,7 @@ exports.default = {
             description: carsale.description,
             phone: carsale.phone,
             price: carsale.price,
-            cover: `http://localhost:3333/uploads/${carsale.cover}`,
+            cover: `http://garangasclub-com-br.umbler.net/${carsale.cover}`,
             images: carsaleimages_view_1.default.renderMany(carsale.carSaleImages),
         };
     },
