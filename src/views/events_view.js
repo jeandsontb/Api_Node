@@ -4,7 +4,7 @@ exports.default = {
     render(event) {
         return {
             id: event.id,
-            url: `http://garangasclub-com-br.umbler.net/${event.img}`,
+            url: `http://garangasclub-com-br.umbler.net/uploads/${event.img}`,
             title: event.title,
             description: event.description,
             date: event.date,

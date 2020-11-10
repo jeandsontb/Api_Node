@@ -11,7 +11,7 @@ exports.default = {
             name: persona.name,
             title: persona.title,
             description: persona.description,
-            avatar: `http://garangasclub-com-br.umbler.net/${persona.avatar}`,
+            avatar: `http://garangasclub-com-br.umbler.net/uploads/${persona.avatar}`,
             images: personaimages_view_1.default.renderMany(persona.personaImages),
         };
     },

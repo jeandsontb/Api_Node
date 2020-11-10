@@ -4,7 +4,7 @@ exports.default = {
     render(image) {
         return {
             id: image.id,
-            url: `http://garangasclub-com-br.umbler.net/${image.path}`,
+            url: `http://garangasclub-com-br.umbler.net/uploads/${image.path}`,
         };
     },
     renderMany(images) {
